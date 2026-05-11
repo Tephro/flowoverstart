@@ -4,6 +4,8 @@
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?logo=windows)
 ![AutoHotkey](https://img.shields.io/badge/built%20with-AutoHotkey-green)
+![Inno Setup](https://img.shields.io/badge/installer-Inno%20Setup-orange)
+![Free](https://img.shields.io/badge/price-free-brightgreen)
 
 ## About
 
@@ -25,6 +27,12 @@ Windows 10 or later
 | Shortcut | Action |
 |----------|--------|
 | `Lwin` | Opens Flow Launcher |
+
+## Built with
+
+The installer is built using [Inno Setup](https://jrsoftware.org/isinfo.php) by Jordan Russell. Inno Setup is a free installer for Windows programs — it handles file copying, registry entries, and uninstall support out of the box.
+
+To build the installer yourself, open `FlowOverStart.iss` in Inno Setup and click **Compile**.
 
 ## License
 
