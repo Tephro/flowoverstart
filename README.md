@@ -1,16 +1,17 @@
 # FlowOverStart
 
-> A lightweight script to allow you to use the windows key on flow launcher without problems.
+> A lightweight hot key script for quick opening of flow launcher on Windows.
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?logo=windows)
 ![AutoHotkey](https://img.shields.io/badge/built%20with-AutoHotkey-green)
 ![Inno Setup](https://img.shields.io/badge/installer-Inno%20Setup-orange)
-![Free](https://img.shields.io/badge/price-free-brightgreen)
+![GitHub Stars](https://img.shields.io/github/stars/Tephro/flowoverstart?style=flat)
 
 ## About
 
-FlowOverStart lets you trigger common actions with a single keypress. Built with AutoHotkey and packaged as installer with a check for auto run.
-You MUST have your Flow Launcher hotkey set as Alt + Space for this to work.
+FlowOverStart lets you open Flow Launcher instantly by pressing the Windows key alone. 
+
+Built with AutoHotkey and packaged as a installer and app that auto runs on startup assuming you clicked the box.
 
 ## Requirements
 
@@ -26,13 +27,14 @@ Windows 10 or later
 
 | Shortcut | Action |
 |----------|--------|
-| `Lwin` | Opens Flow Launcher |
+| `Win` | Opens Flow Launcher |
+| `Alt+Space` | Opens Flow Launcher (without FlowOverStart running) |
 
 ## Built with
 
 The installer is built using [Inno Setup](https://jrsoftware.org/isinfo.php) by Jordan Russell. Inno Setup is a free installer for Windows programs — it handles file copying, registry entries, and uninstall support out of the box.
 
-To build the installer yourself, open `FlowOverStart.iss` in Inno Setup and click **Compile**.
+To build the installer yourself, open `FlowOverStartInstaller.iss` in Inno Setup and click **Compile**.
 
 ## License
 
