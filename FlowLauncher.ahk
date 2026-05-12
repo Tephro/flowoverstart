@@ -1,7 +1,13 @@
 ﻿#Requires AutoHotkey v2.0
 #SingleInstance Force
+A_IconTip := "FlowOverStart"
+TraySetIcon(A_ScriptDir "\FlowOverStart.ico")
 InstallKeybdHook()
 InstallMouseHook()
+
+; Startup notification
+Sleep(3000)
+MsgBox("Script is running successfully!", "FlowOverStart", 64)
 
 ; Define the hotkey that opens Flow Launcher (Alt + Space)
 LauncherHotkey := "!{Space}"
