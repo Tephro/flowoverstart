@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="https://github.com/Tephro/flowoverstart/blob/main/FlowOverStartIcon.jpg?raw=true" alt="FlowOverStart logo" width="150"/>
+</p>
+
 # FlowOverStart
 
-> A lightweight hot key script for quick opening of flow launcher on Windows.
+> A lightweight AutoHotkey script for quick keyboard shortcuts on Windows.
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?logo=windows)
 ![AutoHotkey](https://img.shields.io/badge/built%20with-AutoHotkey-green)
@@ -9,13 +13,13 @@
 
 ## About
 
-FlowOverStart lets you open Flow Launcher instantly by pressing the Windows key alone. 
+FlowOverStart lets you open Flow Launcher instantly by pressing the Windows key alone.
 
 Built with AutoHotkey and packaged as a installer and app that auto runs on startup assuming you clicked the box.
 
 ## Requirements
 
-Windows 10 or later
+Windows 10 or later, Flow Launcher installed
 
 ## Installation
 
@@ -28,7 +32,6 @@ Windows 10 or later
 | Shortcut | Action |
 |----------|--------|
 | `Win` | Opens Flow Launcher |
-| `Alt+Space` | Opens Flow Launcher (without FlowOverStart running) |
 
 ## Built with
 
